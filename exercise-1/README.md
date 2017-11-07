@@ -1,5 +1,5 @@
 # Exercise-1
-In this exercise, you'll practice creating a repository, adding collaborators, and integrating the work of others through `rebasing`. You should work in groups of two or more.
+In this exercise, you'll practice creating a repository, adding collaborators, and integrating the work of others through `merging`. You should work in groups of two or more.
 
 ## Set up
 
@@ -21,10 +21,10 @@ Here, we'll see how multiple people contributing to the same project can prevent
 
 At this point, GitHub should prevent **Person 2** from pushing because they are not working on top of the most recent commit to the project.
 
-## Rebasing
-To allow **Person 2** to replay their changes on top of the most recent version of the project, they should `rebase` the changes from the remote:
+## Merging
+In order to push their changes up to GitHub, **Person 2** will have to `pull` in the most recent changes and `merge` them with their own commit.
 
-- **Person 2** should pull and rebase changes from GitHub (i.e., `git pull --rebase origin master`). This should work smoothly because **Person 1** and **Person 2** did not edit the same line of the same file
+- **Person 2** should pull and rebase changes from GitHub (i.e., `git pull origin master --no-edit`). This should work smoothly because **Person 1** and **Person 2** did not edit the same line of the same file
 - **Person 2** should now be able to push their (integrated) changes up to GitHub.
 
-This exercise is a simple example of using rebasing _without_ conflict. To practice encountering conflict, see [exercise-2](../exercise-2).
+This exercise is a simple example of using merging _without_ conflict. To practice encountering conflict, see [exercise-2](../exercise-2).
