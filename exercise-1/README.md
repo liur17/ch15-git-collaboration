@@ -15,7 +15,7 @@ To set up the repository, take the following steps:
 Here, we'll see how multiple people contributing to the same project can prevent individuals from pushing to GitHub:
 
 - **Person 1** should edit the `README.md` file by adding a line that describes the project
-
+THIS IS A SUPER FUN EXERCISE
 This is a FUN exercise!!
 
 - **Person 1** should then `add` and `commit` those changes, then push those changes up to GitHub (make sure to close issue 1 with a commit message)
